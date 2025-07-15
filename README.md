@@ -1,16 +1,43 @@
-# shopping_app
+# 🛍️ Flutter Firebase Shopping App
 
-A new Flutter project.
+A cross-platform **e-commerce mobile application** built using **Flutter** and **Firebase**. This app allows users to browse product categories, manage their profile, add items to a wishlist or cart, place orders, and manage shipping addresses. Admins can manage inventory and view order history. 
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## 🚀 Features
 
-A few resources to get you started if this is your first Flutter project:
+### 👤 User Features
+- User authentication with email & password (Firebase Auth)
+- View and update user profile (name, phone, address, joined date, profile picture)
+- Browse product categories with images (from Firestore)
+- View product details, add to cart or wishlist
+- Place orders with selected delivery address
+- View past orders and order details
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+### 🛒 Shopping Experience
+- Product listing with dynamic content from Firebase
+- Wishlist functionality with persistent data
+- Cart and checkout screens with total calculation
+- Address management for delivery
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### 🔧 Admin Features *(Optional)*
+- Add/update/delete products
+- View user orders
+- Manage stock and categories
+
+---
+
+## 🧰 Tech Stack
+
+- **Flutter** (Dart) – frontend
+- **Firebase Authentication** – user sign-in/sign-up
+- **Cloud Firestore** – product, user, cart, wishlist, and order data
+- **Firebase Storage** – product images and profile pictures
+- **Provider / Riverpod / Bloc** – (choose based on what you use) for state management
+- **Flutter Hooks & Responsive UI** – optional enhancements
+
+---
+
+
+
+
