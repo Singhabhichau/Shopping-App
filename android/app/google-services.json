@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "72604447683",
+    "project_id": "pihuplus-ca67d",
+    "storage_bucket": "pihuplus-ca67d.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:72604447683:android:3f57268810ca52ff6a4376",
+        "android_client_info": {
+          "package_name": "com.example.shopping_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB1K29JtnPfHr5fBuJExRHVxghaCXW0-Zw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

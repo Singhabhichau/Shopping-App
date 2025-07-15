@@ -1,0 +1,32 @@
+name: shopping_app
+description: A new Flutter project.
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.8.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  firebase_core: ^2.30.0
+  firebase_auth: ^4.17.5
+  cloud_firestore: ^4.15.5
+  fluttertoast: ^8.2.5
+  provider: ^6.1.2
+  animated_text_kit: ^4.2.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/welcome.png
+    - assets/images/login_illustration.png
+    - assets/images/home_banner.png
+    - assets/images/pattern_background.png
+
